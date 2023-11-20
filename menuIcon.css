@@ -1,0 +1,39 @@
+﻿#menuIcon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+    
+}
+
+#mainMenu {
+    display: none; /* Hide the navigation menu initially */
+    background-color:black;
+    color: white;
+    padding: 20px;
+    
+    
+}
+
+#mainMenu ul {
+    list-style-type: none;
+    
+}
+
+#mainMenu li {
+    margin-bottom: 10px;
+    position:absolute;
+    z-index: 100;
+    
+    }
+
